@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<head>
+    <html lang="en">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lab 7</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+    <!-- <script src="scripts/script.js"></script> -->
+</head>
+
+<body>
+    <!--Desktop Header-->
+    <h1>test html</h1>
+    <div id="bigContainer">
+        <h1 id="name">test html</h1>
+        <div id="desktopHeader">
+            <div id="headerContainer">
+                <div id="logo">
+                    <img id="coffeeLogo" src="images/icons/planets.svg">
+                </div>
+                <div id="listContainer">
+                    <ul>
+                        <li class="listItem">Home</li>
+                        <li class="listItem">About us</li>
+                        <li class="listItem">How to Rent</li>
+                        <li class="listItem">FAQs</li>
+                        <li class="listItem">Contact us</li>
+                    </ul>
+                </div>
+                <div id="accountManage">
+                    <span id="createAccount" onclick="location.href='./views/register.html'"><span class="textSpan">Create Account</span></span>
+                    <span id="signIn" onclick="location.href='./views/login.html'"><span class="textSpan">Sign in</span></span>
+                </div>
+            </div>
+        </div>
+
+        <!--Tablet Header-->
+
+        <div id="tabletHeader">
+            <div id="headerContainer">
+                <span id="createAccount" onclick="location.href='./views/register.html'"><span class="textSpan">Create Account</span></span>
+                <div id="logo">
+                    <img id="coffeeLogo" src="images/icons/planets.svg">
+                </div>
+                <span id="signIn" onclick="location.href='./views/login.html'"><span class="textSpan">Sign in</span></span>
+
+            </div>
+            <div id="listContainer">
+                <ul>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>How to Rent</li>
+                    <li>FAQs</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+        </div>
+
+        <!--Mobile Header-->
+        <div id="mobileHeader">
+            <div id="headerContainer">
+                <div id="listContainer">
+                    <ul>
+                        <li>Home</li>
+                        <li>About us</li>
+                        <li>How to Rent</li>
+                        <li>FAQs</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="mobileGridContainer">
+
+                <div id="createAccount">
+                    <div class="spanContainer">
+                        <span id="createAccount" onclick="location.href='./views/register.html'"><span class="textSpan">Create Account</span></span>
+                    </div>
+                </div>
+                <div id="logo">
+                    <img id="coffeeLogo" src="images/icons/planets.svg">
+                </div>
+                <span id="signIn" onclick="location.href='./views/login.html'"><span class="textSpan">Sign in</span></span>
+            </div>
+            <!--    End of headers -->
+
+
+            <div id="mainText">
+                <span id="mainSpan1">Rent your spaceships, save a bundle</span>
+                <span id="mainSpan2">Rent and save up to 90%</span>
+            </div>
+        </div>
+
+        <div id="received1"></div>
+        <div id="received2"></div>
+
+        <div id="searchBarContainer">
+            <form>
+                <input type="text" id="spaceshipSend" placeholder="Search by Model, Make, or Colour">
+                <input type="button" id="submit" value="Brain Blast">
+            </form>
+        </div>
+
+        <div id="infoBoxes">
+            <div id="box1" class="infoContainers">
+                <img class="infoIcon" src="images/icons/planetNeptune.png">
+                <span class="infoSpan1" id="box1Span"></span>
+            </div>
+            <div id="box2" class="infoContainers">
+                <img class="infoIcon" src="images/icons/planetSaturn.png
+                ">
+                <span class="infoSpan1" id="box2Span"></span>
+            </div>
+            <div id="box3" class="infoContainers">
+                <img class="infoIcon" src="images/icons/planetUranus.png">
+                <span class="infoSpan1" id="box3Span"></span>
+            </div>
+            <div id="box4" class="infoContainers">
+                <img class="infoIcon" src="images/icons/planetVenus.png">
+                <span class="infoSpan1" id="box4Span"></span>
+            </div>
+        </div>
+    </div>
+
+    <div id="bottomContainer">
+        <div id="bottomPortion">
+            <p id="featured">Click to Create an Army!</p>
+            <div class="bottomBoxes" id="bottom1">
+                <img class="bottomImage" id="bottomImage1" src="images/BottomFeatures/spaceships.jpg">
+                <div class="textContainer">
+                    <p class="para1"></p>
+                    <p class="para2"></p>
+                    <p class="para3"></p>
+                    <p class="para4"></p>
+                </div>
+            </div>
+            <div class="bottomBoxes" id="bottom2">
+                <img class="bottomImage" id="bottomImages2" src="images/BottomFeatures/cosmos_RF_RMPL-01.svg">
+                <p class="para1"></p>
+                <p class="para2"></p>
+                <p class="para3"></p>
+                <p class="para4"></p>
+            </div>
+            <div class="bottomBoxes" id="bottom3">
+                <img class="bottomImage" id="bottomImage3" src="images/BottomFeatures/Rings of Saturn Vector.svg">
+                <p class="para1"></p>
+                <p class="para2"></p>
+                <p class="para3"></p>
+                <p class="para4"></p>
+            </div>
+
+            <div class="bottomBoxes" id="bottom4">
+                <img class="bottomImage" id="bottomImage4"
+                    src="images/BottomFeatures/Cosmos Star In The Night Vector.svg">
+                <p class="para1"></p>
+                <p class="para2"></p>
+                <p class="para1"></p>
+                <p class="para1"></p>
+            </div>
+        </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="scripts/script.js"></script>
+    <script>
+
+        $('#submit').click(function() {
+            $("#spaceshipSend").css({"display": "inline"});
+        });
+
+
+        $('#name').html(name);
+
+    </script>
+
+
+</body>
+
+</html>
